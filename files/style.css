@@ -2,21 +2,8 @@
   margin: 0;
   padding: 0;
 }
-
 body, html {
   height: 100%;
-  background-color: #262626;
-}
-
-.parent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-
-body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
@@ -61,6 +48,12 @@ input {
 input:focus {
   outline: none;
   box-shadow: inset 0 -2px #449fdb;
+}
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 .liga {
   width: 80%;
@@ -154,4 +147,7 @@ p {
 .fs1 {
   font-size: 32px;
 }
-
+.hei {
+	width: 420px;
+	position: fixed;
+}
